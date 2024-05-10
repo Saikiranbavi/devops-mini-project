@@ -1,7 +1,7 @@
 ## devops-mini-project
 # Credential to access jenkins 
 # Jenkins URL for accessing jobs: http://3.216.48.235:8080   Username: "devops"    Password: "devops"
-# Porject plan:
+# Porject plan:-
 - we will create a ec2 ubuntu machine from aws console to install jenkins on that machine
 - for this setup, we can create a custom VPC with public subnet,internet gateway attached to VPC,route table update for VPC and subnet for internet gateway
 - we require an elastic ip to associate with ec2 instance on which we will access jenkins on port 8080
@@ -53,7 +53,7 @@ cd devops-mini-project
 sudo chmod +x install_java_jenkins.sh
 ./install_java_jenkins.sh
 ```
-- when jenkins will be installed , we need to install aws cli and its configuration
+- when jenkins will be installed , we need to install aws cli and its configuration:
 ```sh
 sudo chmod +x install_aws_cli.sh
 ./install_aws_cli.sh
